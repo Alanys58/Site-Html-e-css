@@ -1,0 +1,75 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+/*style banner*/
+.banner {
+    display: flex;
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+}
+.bannerimg.col-md-8 {
+    padding: 0;
+}
+.titlebanner.col-md-4 h1 {
+    color: #fff;
+    text-align: center;
+}
+.bannerimg.col-md-8 img {
+    width: 100%;
+    height: 600px;
+}
+div#Banner\ col-md-12 {
+    height: 600px;
+} 
+.titlebanner.col-md-4 {
+    background: mediumseagreen;
+    height: inherit;
+}
+/*style menu*/
+div#topo\ col-md-12 {
+    height: 3.5cm;
+    background: #048b4a;
+}
+.titlebanner.col-md-4 {
+    background: mediumseagreen;
+    HEIGHT: 15.8cm;
+}
+.menu.col-md-9 {
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+li {
+    font-size: 21px;
+}
+a {
+    --fill-color: #ffdf2b;
+    position: relative;
+    display: block;
+    font: 700 3rem Raleway, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px var(--fill-color);
+    background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+    color: transparent;
+    background-clip: text;
+    transition: 0.5s linear;
+    }
+    &:hover {
+      background-size: 100%;
+    }
+    a:focus, a:hover {
+        color: #ffdf2b;
+        text-decoration: underline;
+    }
